@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calcule seu IMC</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>FORMULARIO</h1>
+    <ul>
+      <li>Nenhum campo pode estar vazio</li>
+      <li>O nome de usuário só poderá conter letras e/ou números</li>
+      <li>O nome de usuário deve ter entre 3 e 12 caracteres</li>
+      <li>A senha prrecisa deve ter entre 6 e 12 caracteres</li>
+    </ul>
+
+    <form action="/" method="POST" class="formulario">
+      <label>Nome</label>
+      <input type="text" class="nome valid">
+
+      <label>Sobrenome</label>
+      <input type="text" class="sobrenome valid">
+
+      <label>CPF</label>
+      <input type="text" class="CPF valid">
+
+      <label>usuário</label>
+      <input type="text" class="usuario valid">
+
+      <label>senha</label>
+      <input type="password" class="senha valid">
+
+      <label>repetir senha</label>
+      <input type="password" class="repetir-senha valid">
+
+      <button type="submit">ENVIAR</button>
+    </form>
+
+  </section>
+
+  <script src="./scriptsz/js/classValidaCPF.js"></script>
+  <script src=" ./scriptsz/js/main2.js"></script>
+</body>
+
+</html>
